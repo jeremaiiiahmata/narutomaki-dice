@@ -6,7 +6,7 @@ function generateDice(){
 
 }
 
-function decideWinner(playerOne, playerTwo){
+function decideWinner(playerOne, playerTwo) {
 
     var winner = "";
 
@@ -28,7 +28,7 @@ function decideWinner(playerOne, playerTwo){
 
 }
 
-function changeDiceImage(playerOne, playerTwo){
+function changeDiceImage(playerOne, playerTwo) {
 
 
     var playerOneSource = "./images/" + playerOne + ".png";
@@ -40,7 +40,7 @@ function changeDiceImage(playerOne, playerTwo){
 }
 
 
-function shuffleDice(){
+function shuffleDice() {
 
 var playerOneDice = 0;
 var playerTwoDice = 0;
