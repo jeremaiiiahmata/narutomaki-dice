@@ -14,6 +14,7 @@ body{
 
     margin-top: 20px;
     font-weight: 900;
+    font-size: 100px;
 
 }
 
@@ -76,5 +77,15 @@ body{
 .btn:hover {
 
     background-color: #f9cfdc;
+
+}
+
+@media (max-width: 1250px){
+
+    .heading{
+
+        font-size: 48px;
+
+    }
 
 }
